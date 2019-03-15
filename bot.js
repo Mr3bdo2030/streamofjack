@@ -4,7 +4,7 @@ var prefix = "M";
 var adminprefix = 'M'
 
 
-const developers = ["538794966756098057"]
+const developers = ["538794966756098057,424134723716120578"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
